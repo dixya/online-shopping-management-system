@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,div,p,ul,li,h1,h2,h3 {margin:0px; padding:0}
+
+body {font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#000; background-color:#ccc; }
+.wrapper { width:1080px; margin:auto; margin-top:0px; }
+.login {border:solid 2px #333333; margin:0 auto; margin-top:60px; padding:10px; width:300px; background-color:#C96; }
+.login p {padding:10px 0 0; }
+p.title {  color:#00F; font-family:Tahoma, Geneva, sans-serif; padding:10px; margin:2px; text-align:center; font-size:20px; font-stretch:expanded; font-weight:bold;}
+p.msg {color:#f00; font-weight:bold; padding:5px; }
+.sidebar {float:left; width:170px; background-color:#666; color:#fff; height:900px; padding-top:20px;  margin-right:0px; border:#000; border:thick;}
+.content {width:850px; float:right; height:900px;  background-color:#9C9;}
+.clear {clear:both;}
+.sidebar ul {list-style:none; }
+.sidebar li {padding:10px 0 0;}
+.sidebar h3 a{color:#F00;}
+.sidebar h3 a:hover {color:#00C;}
+
+.sidebar a {color:#fff; text-decoration:none;}
+.sidebar a:hover {color:#0F0; }
+
+.sidebar,.content {padding:15px;  }
+
+.content td {border:1px dotted #000; font-size:12px;}
+.content th {background-color:#000; color:#fff;}
+
+.content tr.childpage { background-color:#09F; }
+.content p {padding:10px 0 0; font-size:24px; font-stretch:expanded;} 
+.info {color:#F30; font-weight:bold; font-style:italic; padding-left:50px;}
+.username,.password,.shopno{
+		font-size:14px;
+	font-stretch:expanded;
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-weight:bold;}
+.submit{
+	margin:2px;
+	padding:2px;
+	border:thick;
+	text-align:center;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:18px;
+}
+.content1 {width:950px; float:right; height:auto; }
+	.content1 td {border:1px dotted #000;}
+.content1 th {background-color:#000; color:#fff;}
+
+.content1 tr.childpage { background-color:#09F;  }
+.content1 p {padding:10px 0 0;}
+.content1 {padding:15px; } 
+.last{
+	font-size: 14px;
+	font-weight: bold;
+	align:right;
+}
+}
+
+
+	

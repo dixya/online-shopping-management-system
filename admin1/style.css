@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,div,p,ul,li,h1,h2,h3 {margin:0px; padding:0}
+
+body {font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#000; background-color:#ccc; }
+.whole{width:980px;   margin:0 auto; margin-top:60px;}
+.wrapper { width:980px; margin:0 auto; margin-top:60px;  background-color:#fff;}
+.login {border:8px,solid; margin:0 auto; margin-top:80px; padding:10px; width:300px; background-color:#000;  border:2px solid #ccc; 
+-webkit-border-radius: 15px;
+border-radius: 30px;}
+.login p {padding:10px 0 0; }
+input[type=text] {padding:5px; border:2px solid #ccc; 
+-webkit-border-radius: 5px;
+border-radius: 5px;
+}
+input[type=text]:focus {border-color:#333; }
+input[type=password] {padding:5px; border:2px solid #ccc; 
+-webkit-border-radius: 5px;
+border-radius: 5px;
+}
+
+input[type=submit] {padding:5px 15px; background:red; border:0 none; margin-left: 100px;cursor:pointer;font-size: 16px; font-weight: bold;
+-webkit-border-radius: 5px; width:100px;
+border-radius: 5px; }
+p.title {background-color:#FFF; color:#000;border:2px solid #ccc; 
+-webkit-border-radius: 5px;
+border-radius: 5px; font-family:Tahoma, Geneva, sans-serif; padding:10px; margin:2px; text-align:center; font-size:20px; font-stretch:expanded; font-weight:bold;}
+p.msg {color:#f00; font-weight:bold; padding:5px;  }
+.sidebar {float:left; width:170px; background-color:#666; color:#fff; padding-top:20px; height:500px; border:#000; border:thick;}
+.content {width:700px; float:right; height:500px; background:url('../images/logo.png') no-repeat;}
+.clear {clear:both;}
+.sidebar ul {list-style:none; }
+.sidebar li {padding:10px 0 0;}
+.sidebar h3 a{color:#F00;}
+.sidebar h3 a:hover {color:#00C;}
+
+.sidebar a {color:#fff; text-decoration:none;}
+.sidebar a:hover {color:#0F0; }
+
+.sidebar,.content {padding:15px; }
+
+.content td {border:1px dotted #000;}
+.content th {background-color:#000; color:#fff;}
+
+.content tr.childpage { background-color:#09F; }
+.content p {padding:10px 0 0;font-size:24px; font-stretch:expanded;} 
+.info {color:#F30; font-weight:bold; font-style:italic; padding-left:50px;}
+.username,.password{
+	color:#FFF;
+	font-size:14px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-weight:bold;}
+	.remember{
+		color: #fff;
+		font-size: 12px;
+		font-family: sans-serif;
+	}
+	.content1 {width:750px; float:right; height:500px; background-color:#FFF;}
+	.content1 td {border:1px dotted #000;}
+.content1 th {background-color:#000; color:#fff;}
+
+.content1 tr.childpage { background-color:#09F; }
+.content1 p {padding:10px 0 0;} 
+.last{
+	width:980px;
+	text-align: right;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+	
